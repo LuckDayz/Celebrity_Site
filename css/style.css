@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* index.html */
+.backgroundPicsTwo {
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 90%;
+    z-index: -9;
+}
+
+
+.pStyle {
+    width: 400px;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.button button {
+    width: 350px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: none;
+    font-weight: 500;
+    color: #000000;
+}
+
+.showcaseContent{
+    padding-top: 150px;
+   text-align: center;
+   gap: 150px;
+   /* justify-content: space-between; */
+
+}
+
+.card-body img {
+    width: 500px;
+    height: 350px;
+}
+
+
+
+/* landing page */
+.container {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.backgroundPics img {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -9;
+}
+
+.nav a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+
+}
+
+.styleLogo a {
+    width: 400px;
+    height: 60px;
+    background-color: #ffffff;
+    color: red;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    text-align: center;
+}
+
+.showcase {
+    width: 50%;
+    height: 80vh;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-radius: 10px;
+    opacity: 95%;
+    
+}
+
+.form-group label {
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+/* maleForm.html */
+
+.containerThree {
+    background-color: #ffffff;
+    height: 65vh;
+    border-radius: 10px;
+}
+
+.nav-above {
+    padding-bottom: 50px;
+}
+
+.was-validated h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.was-validated label {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* male hidden information */
+.match {
+    display: none;
+    text-align: center;
+    margin-top: -1px;
+}
+
+.match h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.match img {
+    width: 400px;
+
+   
+    
+}
+
+/* female.html */
+
+.containerFour {
+    background-color: cornsilk;
+    height: 70vh;
+    border-radius: 10px;
+    padding-top: 35px;
+}
+
+
+/* footer */
+.footer {
+    background-color: white;
+    /* width: 100%; */
+    height: 10vh;
+    margin-top: 50px;
+}
+
+.footer h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
